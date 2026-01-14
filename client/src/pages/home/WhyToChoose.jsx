@@ -1,7 +1,8 @@
 import SkillsCard from "../../components/common/SkillsCard";
-import { MdOutlineKeyboardArrowLeft } from "react-icons/md";
 import { IoCodeSlash } from "react-icons/io5";
 import { FiShield } from "react-icons/fi";
+import { IoIosCheckmarkCircleOutline } from "react-icons/io";
+
 
 
 
@@ -13,7 +14,7 @@ function WhyToChoose() {
         <h3 className="text-3xl mb-8">Why clients choose to work with us</h3>
         <div className="flex justify-between flex-wrap gap-6">
           <SkillsCard
-            icon={<MdOutlineKeyboardArrowLeft className={iconStyle} />}
+            icon={<IoIosCheckmarkCircleOutline className={iconStyle} />}
             heading={"Clear Communicaton"}
             para={
               "We explain technical decisions in plain language. you'll always understand whats happening, why it matters, and what comes next. "
