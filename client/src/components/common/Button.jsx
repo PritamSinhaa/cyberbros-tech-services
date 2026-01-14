@@ -1,6 +1,6 @@
 const Button = ({ title }) => {
   return (
-    <button className="text-lg text-white/60 cursor-pointer hover:text-white">
+    <button className="text-[18px] text-white/60 cursor-pointer hover:text-white">
       {title}
     </button>
   );
