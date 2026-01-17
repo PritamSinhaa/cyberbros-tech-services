@@ -1,12 +1,11 @@
 import "react";
-import Navbar from "../components/layout/Navbar";
-import Home4 from "./home/Workflow";
-import RecentWork from "./home/RecentWork";
-import StartProject from "./home/StartProject";
-import HeroSection from "./home/HeroSection";
-import WhyToChoose from "./home/WhyToChoose";
-import WhatWeDo from "./home/WhatWeDo";
-import Workflow from "./home/Workflow";
+
+import StartProject from "./StartProject";
+import RecentWork from "./RecentWork";
+import HeroSection from "./HeroSection";
+import Workflow from "./Workflow";
+import WhyToChoose from "./WhyToChoose";
+import WhatWeDo from "./WhatWeDo";
 
 function Home() {
   return (
@@ -14,7 +13,6 @@ function Home() {
       id="home"
       className=" text-white/90 bg-black font-sens flex flex-col items-center"
     >
-      <Navbar />
       <HeroSection />
       <WhyToChoose />
       <WhatWeDo />

@@ -11,7 +11,7 @@ function Work() {
       id="service"
       className=" text-white/90 bg-black font-sens flex flex-col items-center"
     >
-      <Navbar />
+    
       <WorkHeader WorkTitle={"Work"} WorkDescription={work_data.work.intro} />
 
       {work_data.work.case_studies.map((item, index) => (

@@ -12,7 +12,6 @@ function Service() {
       id="service"
       className=" text-white/90 bg-black font-sens flex flex-col items-center"
     >
-      <Navbar />
       <ServiceHeading />
 
       {service_data.services.map((item, index) => (

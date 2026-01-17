@@ -10,7 +10,6 @@ function Contact() {
       id="service"
       className="text-white/90 bg-black font-sens flex flex-col items-center"
     >
-      <Navbar />
       <ContactHeader title={contact_data.contact.title} intro={contact_data.contact.intro}/>
 
       <div className="w-full flex justify-center items-center my-8">

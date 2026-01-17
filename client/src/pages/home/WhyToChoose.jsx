@@ -1,4 +1,4 @@
-import SkillsCard from "../../components/common/SkillsCard";
+import SkillsCard from '../../components/common/SkillsCard'
 import { IoCodeSlash } from "react-icons/io5";
 import { FiShield } from "react-icons/fi";
 import { IoIosCheckmarkCircleOutline } from "react-icons/io";

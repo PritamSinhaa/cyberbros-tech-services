@@ -14,7 +14,6 @@ const About = () => {
       id="service"
       className="text-white/90 bg-black font-sens flex flex-col items-center"
     >
-      <Navbar />
 
       <AboutHeader
         aboutTitle={about_data.about.title}
