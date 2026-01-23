@@ -23,7 +23,7 @@ function Login() {
             <p className="text-white/60 mb-8 hover:text-white/80 ">Or Sign Up for an account</p>
           </Link>
         <form
-          action="https://formspree.io/f/mqepbang"
+          action="https://formspree.io/f/mpqprykk"
           method="POST"
           className="w-full"
         >
