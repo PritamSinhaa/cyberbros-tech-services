@@ -7,6 +7,7 @@ import Workflow from "./Workflow";
 import WhyToChoose from "./WhyToChoose";
 import WhatWeDo from "./WhatWeDo";
 import ProjectForm from "./ProjectForm";
+import SignUp from "../authonication/SignUp";
 
 function Home() {
   return (
@@ -20,7 +21,6 @@ function Home() {
       <Workflow />
       <RecentWork />
       <StartProject />
-      <ProjectForm />
     </div>
   );
 }

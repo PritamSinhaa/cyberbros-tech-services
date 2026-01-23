@@ -22,11 +22,12 @@ function HeroSection() {
           </p>
 
           <div className=" flex gap-4 mt-12">
+            <Link to={"ProjectForm"}>
             <ButtonWithIcon
               title={"Start a Project"}
               icon={<FaArrowRight className=" ml-1 mt-1 text " />}
               btn={whitebtn}
-            />
+            /></Link>
             <Link to={"Process"}><ButtonWithIcon title={"View my Process"} btn={blackbtn} /></Link>
           </div>
         </div>

@@ -47,7 +47,7 @@ function submitForm(){
             id="name"
             type="text"
             placeholder="Enter Your name"
-            className={`p-3 bg-white/10 border border-white/20 rounded
+            className={`p-3 bg-white/10 border border-white/20 
                       focus:outline-none
                       ${errors.name ? "ring-2 ring-red-300 border-transparent" : "focus:ring-2 focus:ring-white/30"}
                       `}
@@ -71,9 +71,9 @@ function submitForm(){
             type="email"
             placeholder="Enter email address"
             className={`
-    p-3 bg-white/10 rounded border outline-none transition-colors duration-200
-    ${errors.email ? "border-red-300 focus:border-red-300" : "border-white/20 focus:border-white/40"}
-  `}
+                        p-3 bg-white/10 border outline-none transition-colors duration-200
+                        ${errors.email ? "border-red-300 focus:border-red-300" : "border-white/20 focus:border-white/40"}
+                     `}
             {...register("email", {
               required: "Email is required",
               pattern: {
@@ -95,7 +95,7 @@ function submitForm(){
             placeholder="Tell us about your project: What problem are you trying to solve? What's your timeline? Any specific requirements or constraints?"
             className={`
                     p-3 min-h-54 resize-none overflow-y-auto
-                    rounded bg-white/10 border
+                    bg-white/10 border
                     outline-none focus:outline-none
                     transition-colors duration-200
                     [scrollbar-width:none]
